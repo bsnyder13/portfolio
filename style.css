@@ -1,3 +1,47 @@
 body {
+    background: url("assets/background.jpg");
+    background-size: 100%;
+}
+
+header {
     
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: #00ffdd;
+}
+
+.nav-link {
+    color: #00ffdd;
+}
+
+body {
+    background-color: black;
+}
+
+.about {
+    
+}
+
+.headshot {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.aboutme {
+    margin-top: -200px;
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-bottom: 200px;
+    color: #00ffdd;
+}
+
+.row {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.contact {
+
 }

@@ -11,23 +11,29 @@
 <body>
     <header class="d-flex justify-content-center py-3">
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">About Me</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link active" aria-current="page">About Me</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact Me</a></li>
+          <li class="nav-item"><a href="#social" class="nav-link">Social Media</a></li>
+          <li class="nav-item"><a href="https://drive.google.com/file/d/1Y_dWwKfhozUnmt6-f3FuwTHtC5JO92oz/view?usp=sharing" class="nav-link">Resume</a></li>
         </ul>
       </header>
 
-    <div class="about">
+    <a id="about"></a>
+      <div class="about">
       <div class="headshot">
-        <img src="assets/Headshot.jpg" style="width: 200px">
+        <img src="assets/Headshot.jpg" style="width: 200px" alt="avatar">
       </div>
       <div class="aboutme">
         <p>
-          Hello, I'm Brad Snyder! I am currently a healthcare IT professional in Terre Haute, IN. I am working toward a career shift to web development by attending Eleven Fifty Academy. I am currently working with HTML, CSS, and JavaScript.  
+          Hello, I'm Brad Snyder! I am currently a healthcare IT professional in Terre Haute, IN  and live in Brownsburg, IN. I am working toward a career shift to web development by attending Eleven Fifty Academy with the goal of working in Indianapolis or from home. I am currently learning a tremendous amount about HTML, CSS, and JavaScript.  
         </p>
       </div>
     </div>
+
+    <a id="projects"></a>
 <div class="row">
+  <div class="col-sm-4">
     <div class="card" style="width: 18rem;">
       <img src="assets/Screen Shot 2021-05-11 at 6.44.52 PM.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -36,7 +42,9 @@
         <a href="https://codepen.io/bsnyder13/full/BapjaVr" class="btn btn-primary">Check it out</a>
       </div>
     </div>
+    </div>
 
+    <div class="col-sm-4">
     <div class="card" style="width: 18rem;">
       <img src="assets/Screen Shot 2021-05-11 at 7.06.46 PM.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -45,7 +53,9 @@
         <a href="https://bsnyder13.github.io/deployedChall1/" class="btn btn-primary">Check it out</a>
       </div>
     </div>
+    </div>
 
+    <div class="col-sm-4">
     <div class="card" style="width: 18rem;">
       <img src="assets/Screen Shot 2021-05-11 at 7.10.33 PM.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -54,10 +64,23 @@
         <a href="https://apichallenge2-4f818.web.app/" class="btn btn-primary">Check it out</a>
       </div>
     </div>
+    </div>
 </div>
 
 <div class="row">
-    <div class="card" style="width: 18rem;">
+  <div class="col-sm-4">
+  <div class="card" style="width: 18rem;">
+    <img src="assets/Screen Shot 2021-05-11 at 8.01.15 PM.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Static Project</h5>
+      <p class="card-text">Static website project.</p>
+      <a href="https://bsnyder13.github.io/static_project/" class="btn btn-primary">Check it out</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-sm-4">
+  <div class="card" style="width: 18rem;">
       <img src="assets/Web_Dev_blue.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Blue Badge</h5>
@@ -65,7 +88,9 @@
         <a href="https://elevenfifty.org/" class="btn btn-primary">Check it out</a>
       </div>
     </div>
+    </div>
 
+    <div class="col-sm-4">
     <div class="card" style="width: 18rem;">
       <img src="assets/badges-webdev_red.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -74,10 +99,35 @@
         <a href="https://elevenfifty.org/" class="btn btn-primary">Check it out</a>
       </div>
     </div>
+    </div>  
 </div>
 
-<div class="contact">
-  
+<a id="contact"></a>
+<form
+  action="https://formspree.io/f/mbjqjnkp"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+
+<a id="social"></a>
+<div class="container">
+  <span class="text-muted">
+    <a href="www.linkedin.com/in/brad-snyder-857076192
+    ">LinkedIn</a>
+    <a href="https://github.com/bsnyder13">GitHub</a>
+  </span>
 </div>
 
 

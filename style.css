@@ -1,6 +1,6 @@
 body {
-    background: url("assets/background.jpg");
-    background-size: 100%;
+    background: rgb(130,212,213);
+background: linear-gradient(0deg, rgba(130,212,213,1) 0%, rgba(3,3,3,1) 100%);
 }
 
 header {
@@ -9,11 +9,11 @@ header {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: black;
-    background-color: #00ffdd;
+    background-color: #82d4d5;
 }
 
 .nav-link {
-    color: #00ffdd;
+    color: #82d4d5;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
 }
 
 .headshot {
-    margin-left: 100px;
+    margin-left: 175px;
     margin-top: 100px;
 }
 
@@ -34,14 +34,25 @@ body {
     margin-left: 40%;
     margin-right: 10%;
     margin-bottom: 200px;
-    color: #00ffdd;
+    color: #82d4d5;
 }
 
 .row {
-    margin-top: 100px;
+    margin-top: 75px;
     margin-left: 100px;
 }
 
-.contact {
+form {
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
 
+textarea {
+    margin-top: 50px;
+}
+
+.container {
+    margin-left: 650px;
+    margin-bottom: 30px;
 }

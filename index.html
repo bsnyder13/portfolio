@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a333e6b88.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Brad Snyder Portfolio</title>
 </head>
@@ -19,38 +22,52 @@
         </ul>
       </header>
 
+      <h1>Brad Snyder</h1>
+      <h2>Junior Web Developer</h2>
+
     <a id="about"></a>
       <div class="about">
       <div class="headshot">
-        <img src="assets/Headshot.jpg" style="width: 200px" alt="avatar">
+        <img src="assets/HS2.jpg" style="width: 250px" alt="avatar">
       </div>
       <div class="aboutme">
         <p>
           Hello, I'm Brad Snyder! I am currently a healthcare IT professional in Terre Haute, IN  and live in Brownsburg, IN. I am working toward a career shift to web development by attending Eleven Fifty Academy with the goal of working in Indianapolis or from home. I am currently learning a tremendous amount about HTML, CSS, and JavaScript.  
         </p>
+        <h3>Current Skillset:</h3>
+      <i class="fab fa-html5 fa-3x"></i>
+      <i class="fab fa-css3-alt fa-3x"></i>
+      <i class="fab fa-js-square fa-3x"></i>
+      <i class="fab fa-github fa-3x"></i>
       </div>
     </div>
+
+    <h1>Projects</h1>
 
     <a id="projects"></a>
 <div class="row">
   <div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 18rem; height: 260;">
       <img src="assets/Screen Shot 2021-05-11 at 6.44.52 PM.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">CSS Creature</h5>
-        <p class="card-text">My first project involving CSS.</p>
+        <p class="card-text"></p>
+        <div class="col text-center">
         <a href="https://codepen.io/bsnyder13/full/BapjaVr" class="btn btn-primary">Check it out</a>
+        </div>
       </div>
     </div>
     </div>
 
     <div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 18rem; height: 260;">
       <img src="assets/Screen Shot 2021-05-11 at 7.06.46 PM.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">API Project 1</h5>
-        <p class="card-text">My first API project. This uses a Formula1 API</p>
+        <p class="card-text"></p>
+        <div class="col text-center">
         <a href="https://bsnyder13.github.io/deployedChall1/" class="btn btn-primary">Check it out</a>
+        </div>
       </div>
     </div>
     </div>
@@ -60,8 +77,10 @@
       <img src="assets/Screen Shot 2021-05-11 at 7.10.33 PM.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">API Project 2</h5>
-        <p class="card-text">My second API project. This uses the Giphy API.</p>
+        <p class="card-text"></p>
+        <div class="col text-center">
         <a href="https://apichallenge2-4f818.web.app/" class="btn btn-primary">Check it out</a>
+        </div>
       </div>
     </div>
     </div>
@@ -73,8 +92,10 @@
     <img src="assets/Screen Shot 2021-05-11 at 8.01.15 PM.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Static Project</h5>
-      <p class="card-text">Static website project.</p>
+      <p class="card-text"></p>
+      <div class="col text-center">
       <a href="https://bsnyder13.github.io/static_project/" class="btn btn-primary">Check it out</a>
+      </div>
     </div>
   </div>
   </div>
@@ -84,8 +105,10 @@
       <img src="assets/Web_Dev_blue.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Blue Badge</h5>
-        <p class="card-text">TBA</p>
+        <p class="card-text"></p>
+        <div class="col text-center">
         <a href="https://elevenfifty.org/" class="btn btn-primary">Check it out</a>
+        </div>
       </div>
     </div>
     </div>
@@ -95,38 +118,57 @@
       <img src="assets/badges-webdev_red.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Red Badge</h5>
-        <p class="card-text">TBA</p>
+        <p class="card-text"></p>
+        <div class="col text-center">
         <a href="https://elevenfifty.org/" class="btn btn-primary">Check it out</a>
+        </div>
       </div>
     </div>
     </div>  
 </div>
 
-<a id="contact"></a>
-<form
-  action="https://formspree.io/f/mbjqjnkp"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
 
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
-</form>
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/mrgrplae",
+    title: "Let's chat!",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "#86C232"
+      },
+      button: {
+        backgroundColor: "#86C232"
+      }
+    },
+    initiallyVisible: true
+  });
+</script>
 
 <a id="social"></a>
 <div class="container">
   <span class="text-muted">
-    <a href="www.linkedin.com/in/brad-snyder-857076192
-    ">LinkedIn</a>
-    <a href="https://github.com/bsnyder13">GitHub</a>
+    <a href="www.linkedin.com/in/brad-snyder-857076192"><i class="fab fa-linkedin fa-5x"></i></a> 
+    <a href="https://github.com/bsnyder13"><i class="fab fa-github-square fa-5x"></i></a>
   </span>
 </div>
 

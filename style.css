@@ -1,5 +1,5 @@
 body {
-    background-color: #222629; 
+    background-color: #000000; 
 }
 
 header {
@@ -7,33 +7,37 @@ header {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #474B4F;
-    background-color: #86C232;
+    color: #E900FF;
+    background-color: #000000;
 }
 
 .nav-link {
-    color: #86C232;
-    font-family: 'Orbitron', sans-serif;
+    color: #E900FF;
+    font-family: 'Courier New', sans-serif;
+    font-size: 1.5em;
 }
 
 body {
-    background-color: black;
+    background-image: linear-gradient(#000000 10%, #ffffff 90%);
 }
 
 h1 {
-    color: #61892F;
+    color:#5800FF;
     text-align: center;
-    margin-top: 4%;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 100;
+    margin-top: -2%;
+    font-family: 'Courier New', courier, monospace;
+    font-size: 7em;
 }
 
 h2 {
+    color: #5800FF;
     text-align: center;
+    font-family: 'Courier New', courier, monospace;
+    font-size: 1.5em;
 }
 
 .about {
-    margin-top: -9%;
+    margin-top: 15%;
 }
 
 .headshot {
@@ -47,9 +51,9 @@ h2 {
     margin-left: 45%;
     margin-right: 10%;
     margin-bottom: 100px;
-    color: #6B6E70;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 40;
+    color: #000000;
+    font-family: 'Courier New', courier, monospace;
+    font-size: 1.5em;
     line-height: 2;
 }
 
@@ -71,20 +75,20 @@ h2 {
 
 .btn-primary {
     color: #474B4F;
-    background-color: #86C232;
+    background-color: #FFC600;
     border-color: #222629;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Courier New', courier, monospace;
 }
 
 .card-title {
     text-align: center;
-    color: #61892F;
-    font-family: 'Orbitron', sans-serif;
+    color: #E900FF;
+    font-family: 'Courier New', courier, monospace;
     border-color: #222629;
 }
 
 .card-body {
-    background-color: #474B4F;
+    background-color: #000000;
 }
 
 .container {
@@ -93,5 +97,5 @@ h2 {
 }
 
 .fab {
-    color: #86C232;
+    color: #FFC600;
 }

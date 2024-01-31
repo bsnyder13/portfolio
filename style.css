@@ -17,6 +17,10 @@ header {
     font-size: 1.5em;
 }
 
+.nav-link:hover {
+    color: #FFC600;
+}
+
 body {
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(0,0,0,1) 90%);
@@ -29,6 +33,7 @@ h1 {
     margin-top: -2%;
     font-family: 'Courier New', courier, monospace;
     font-size: 7em;
+    font-weight: 500;
 }
 
 h2 {
@@ -82,6 +87,10 @@ h2 {
     font-family: 'Courier New', courier, monospace;
 }
 
+.btn-primary:hover {
+    background-color: #E900FF;
+}
+
 .card-title {
     text-align: center;
     color: #E900FF;
@@ -91,7 +100,7 @@ h2 {
 
 .card-body {
     box-sizing: border-box;
-    padding: 20px;
+    padding-bottom: 20px;
     border: 3px solid #000000;
     background-color: #000000;
 }
@@ -101,6 +110,18 @@ h2 {
     margin-right: 45%;
 }
 
+.navbar {
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
 .fab {
     color: #FFC600;
+}
+
+.fab:hover {
+    color: #E900FF;
 }
